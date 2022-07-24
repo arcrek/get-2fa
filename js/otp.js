@@ -12,7 +12,7 @@ function updatSecret() {
 }
 
 function updateTicker(tick) {
-    document.getElementById("ticker").innerText = "Expires later: " + tick + " second";
+    document.getElementById("ticker").innerText = "Expires after: " + tick + " second";
 
 }
 
